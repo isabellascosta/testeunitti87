@@ -28,13 +28,36 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.ACEITAR = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // ACEITAR
+            // 
+            this.ACEITAR.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.ACEITAR.ForeColor = System.Drawing.Color.Transparent;
+            this.ACEITAR.Location = new System.Drawing.Point(259, 182);
+            this.ACEITAR.Name = "ACEITAR";
+            this.ACEITAR.Size = new System.Drawing.Size(246, 101);
+            this.ACEITAR.TabIndex = 0;
+            this.ACEITAR.Text = "GUITOU";
+            this.ACEITAR.UseVisualStyleBackColor = false;
+            this.ACEITAR.Click += new System.EventHandler(this.ACEITAR_Click);
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.ACEITAR);
+            this.Name = "Form1";
             this.Text = "Form1";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Button ACEITAR;
     }
 }
 
